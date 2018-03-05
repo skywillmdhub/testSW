@@ -3,158 +3,36 @@
 <head>
   <meta charset="utf-8">
   <title>test1|レビュー後</title>
-  <style type="text/css" media="screen">
-html, body, main {
-    height: 100%;
-}
-
-.header {
-  width: 1000px;
-  height: 50px;
-  margin: 0px; /* 5pxから変更 */
-  background-color: pink;
-}
-
-.menu {
-  width: 200px;
-  height: 26px; /* 50pxから変更 */
-  margin-left: auto;
-  background-color: #A9F5A9;
-}
-
-.main {
-  width: 1000px;
-  height: 500px;
-  margin: auto;
-  background-color: lightpink;
-}
-
-.content1 {
-  width: 1000px;
-  height: 300px;
-  background-color: pink;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: auto;
-}
-
-.box1, .box2, .box3 {
-  width: 250px;
-  height: 250px;
-  margin: 5px;
-  background-color: #A9F5A9;
-}
-
-.news {
-  width: 1000px;
-  height: 250px;
-  text-align: center;
-  background-color: lightpink;
-  line-height: 17px; /* ぴったりにしたけどなんか違う*/
-}
-
-.movei {
-  width: 1000px;
-  height: 250px;
-  margin: 0px; /* 5pxから変更 */
-  background-color: pink;
-  border: 1px solid gray;
-}
-
-.content2 {
-  width: 1000px;
-  height: 250px;
-  margin: 0px; /* 5pxから変更 */
-  padding: 0px; /* 10pxから変更 */
-  border: 0px; /* 1pxから変更 */
-  background-color: lightpink;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* 上下中央揃え追加 */
-}
-
-.box4, .box5, .box6 {
-  width: 150px;
-  height: 150px;
-  margin: 33px;
-  padding: 0px; /* 10pxから変更 */
-  border: 0px; /* 1pxから変更 */
-  background-color: #A9F5A9;
-}
-
-.content3 {
-  width: 1000px;
-  height: 350px;
-  margin: 0px; /* 5pxから変更 */
-  padding: 0px; /* 10pxから変更 */
-  border: 0px; /* 1pxから変更 */
-  background-color: pink;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* 上下中央揃え追加 */
-}
-
-.box7 {
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  padding: 0px; /* 10pxから変更 */
-  border: 0px; /* 1pxから変更 */
-  background-color: #A9F5A9;
-}
-
-.box8 {
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  padding: 0px; /* 10pxから変更 */
-  border: 0px; /* 1pxから変更 */
-  background-color: #A9F5A9;
-}
-
-.footer {
-    width: 1000px;
-    height: 50px;
-    background-color: lightpink;
-}
-
-/********/
-/* 追加 */
-
-/* 初期化 */
-* {
-  padding: 0;
-  margin: 0;
-}
-
-/* 大枠を作ってセンタリング */
-.wrapper {
-  width: 1000px ;
-  margin: 0 auto;
-}
-
-  </style>
-
+  <link rel="stylesheet" href="css/style01.css">
 </head>
 <body>
-<div class="wrapper"><!-- 大枠です -->
+<!-- ラッパー -->
+<div class="wrapper">
 
+  <!-- ヘッダー -->
   <header>
     <div class="header">
-      <span>ヘッダー</span><!-- 一応SPAN(インライン要素)で囲んでみた -->
-      <div class="menu">メニュー</div>
+      <span>ロゴ</span><!-- ロゴ画像を配置してみよう -->
+      <div class="menu">メニュー</div><!-- 横並びのメニューを配置してみよう -->
     </div>
   </header>
+  <!-- /ヘッダー -->
 
-  <div class="main"><img src="main_img.jpg" wight="1000" height="500"></div>
+  <!-- メイン画像 -->
+  <div class="main">
+    CSSで表示してみよう
+  </div>
+  <!-- /メイン画像 -->
 
+  <!-- コンテンツ 画像 -->
   <div class="content1">
     <div class="box1"><img src="news_box1.jpg" width="250" height="250"></div>
     <div class="box2"><img src="news_box2.jpg" width="250" height="250"></div>
     <div class="box3"><img src="news_box3.jpg" width="250" height="250"></div>
   </div>
+  <!-- /コンテンツ 画像 -->
 
+  <!-- コンテンツ　ニュース -->
   <div class="news">
     <font size="+3">news</font>
       <br>ALL&emsp;INFO&emsp;LIVE&emsp;MEDIA&emsp;GOODS</br>
@@ -164,26 +42,33 @@ html, body, main {
       <br><font size="+1">text</font></br>
       <br>2018/XX/XX</br>
       <br><font size="+1">text</font></br>
-
-
   </div>
-  <div class="movei">movei</div>
+  <div class="movie">movie</div>
+  <!-- コンテンツ　ニュース -->
 
+  <!-- コンテンツ　画像２ -->
   <div class="content2">
     <div class="box4"><img src="box4_img.jpeg" wight="150" height="150"></div>
     <div class="box5"><img src="box5_img.jpg" wight="150" height="150"></div>
     <div class="box6"><img src="box6_img.jpeg" wight="150" height="150"></div>
     <!-- なぜか真ん中のサイズが -->
   </div>
+  <!-- /コンテンツ　画像２ -->
 
+  <!-- コンテンツ　SNS -->
   <div class="content3">
     <div class="box7"><font size="4">twitter</font></div>
     <div class="box8"><font size="4">FaceBook</font></div>
   </div>
-  <footer><!-- FOOTER要素はHTML要素の下位要素にはなれませんので、BODYの中に入れました -->
+  <!-- コンテンツ　SNS -->
+
+  <!-- フッター -->
+  <footer>
     <div class="footer">フッター</div>
   </footer>
+  <!-- /フッター -->
 
 </div>
+<!-- ラッパー -->
 </body>
 </html>
