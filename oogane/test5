@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>test5</title>
+  <style type="text/css" media="screen">
+
+html, body, main {
+    height: 100%;
+}
+
+.header {
+  width: 750px;
+  height: 200px;
+  background-color: #FF99CC;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 750px;
+  height: 65px;
+  background-color: #ffff;
+  margin: 0 auto;
+}
+
+.menu p{
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+.content {
+  display: flex;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.sub-content {
+  width: 250px;
+  height: 1800px;
+  background-color: #ffff;
+}
+
+.main-content {
+  width: 500px;
+  height: 1800px;
+  background-color: #ffff;
+}
+
+.main-content h2 {
+  color: #FF64BD;
+  margin-top: 30px;
+}
+
+.blog2 {
+  margin: 0 auto;
+}
+
+hr {
+  width: 80%
+}
+
+.footer {
+  width: 1000px;
+  height: 50px;
+  background-color: #FFFFCC;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFFCC;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+    <header>
+      <div class="header">
+        <img src="header_img.jpg" width="750" height="200">
+      </div>
+          <div class="menu">
+            <p>&emsp;News!&emsp;｜</p>
+            <p>&emsp;Profile&emsp;｜</p>
+            <p>&emsp;Works&emsp;｜</p>
+            <p>&emsp;Gallery&emsp;｜</p>
+            <p>&emsp;Peropero★Sparkles&emsp;｜</p>
+            <p>&emsp;Exibition&emsp;｜</p>
+          </div>
+    </header>
+
+<div class="content">
+  <div class="sub-content"><img src="twitter_img.png" width="95px;" height="30px;" >
+
+  </div>
+  <div class="main-content">
+    <div class="blog1">
+      <h2>プリクラ「FAN＋TIC」リリース！</h2>
+      <hr color="#66CCFF">
+        <p>
+          <span style="color: #646464; font-family: メイリオ, Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', Osaka, sans-serif; font-size: 12px;">株式会社メイクソフトウェアより、</span>
+        </p>
+        <p>
+          <span style="color: #646464; font-family: メイリオ, Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', Osaka, sans-serif; font-size: 12px;">新プリントシール機『FAN+TIC（ふぁんたすちっく）』が</span>
+        </p>
+        <img src="blog1_img.png" width="450" height="343">
+    </div>
+    <div class="blog2">
+      <h2>山梨県立科学館「地球はぐるぐるメリーゴーランド」上映中！</h2>
+      <hr color="#66CCFF">
+      <p>
+        <span style="color: #646464; font-family: メイリオ, Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', Osaka, sans-serif; font-size: 12px;">3/18〜7/9に山梨県立科学館にてキッズ・プラネタリウム番組「地球はぐるぐるメリーゴーランド」が絶賛上映中です！</span>
+      </p>
+        <iframe width="480" height="270" src="https://www.youtube.com/embed/o6VxVhDeJaE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <img src="blog2_img.png" width="470" height="650">
+      </div>
+    </div>
+</div>
+
+<footer>
+  <div class="footer">footer</div>
+</footer>
+
+</body>
+</html>
