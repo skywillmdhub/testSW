@@ -1,8 +1,8 @@
 # ディレクトリ構造
 
 - testX
- - html
- - css
-  - style.css
- - img
-  - images
+  - html
+  - css
+   - css style
+  - img
+   - img images
