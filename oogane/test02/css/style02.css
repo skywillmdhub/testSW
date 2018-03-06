@@ -1,20 +1,32 @@
+/***** 初期化 *****/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/***** 初期設定 *****/
 body {
   background: #ddd;/* 境界をわかりやすくするためだけの背景色 */
 }
-
-.header {
-  width: 1000px;
-  height: 50px;
-  margin: 0px; /* 5pxから変更 */
-  background-color: pink;
+.wrapper {
+  width: 1000px ;
+  margin: 0 auto;
+  background: #eee;/* 境界をわかりやすくするためだけの背景色 */
 }
 
+/***** ヘッダー *****/
+.header {
+  height: 50px;
+  background-color: pink;
+}
+/* ロゴ */
 .rogo {
   width: 330px;
   height: 100px;
   margin: 20px auto; /* AUTOでセンタリング */
 }
 
+/* メニュー */
 .menu {
   width: 600px;
   height: 50px;
@@ -22,6 +34,7 @@ body {
   background-color: pink;
 }
 
+/* メイン画像 */
 .main {
   width: 1000px;
   height: 896px;
@@ -29,83 +42,56 @@ body {
   background-color: pink;
 }
 
+/* コンテンツ 画像4 */
 .content1 {
-  width: 1000px;
   height: 333px;
   display: flex;
   padding-top:20px; /* 追加 上に隙間（MARGINでもOK）　*/
   padding-bottom: 20px; /* 追加 下に隙間（MARGINでもOK）　*/
 }
-
 .img1, .img2, .img3, .img4 {
     width: calc(100% / 4); /* 4等分します */
-    height: 400px;
+    height: 333px;
     margin: auto;
     background-color: pink;
-    display: inline-block;
 }
-
-.img5, .img6, .img7 {
-    width: calc(100% / 3); /* 3等分します */
-    height: 400px;
-    /*margin: auto;　FLEXBOXを追加したので、なしでOK　*/
-    background-color: pink;
-    display: inline-block;
-}
-
-/********/
-/* 追加 */
-
-/* 初期化 */
-* {
-  padding: 0;
-  margin: 0;
-}
-
-/* 大枠を作ってセンタリング */
-.wrapper {
-  width: 1000px ;
-  margin: 0 auto;
-  background: #eee;/* 境界をわかりやすくするためだけの背景色 */
-}
-
 /* 境界が分かるように背景色の強制上書 */
 .img1,.img3,.img6,.img9 {
   background: lightpink !important;
 }
 
+/* コンテンツ 画像6 */
 .content2 {
-  width: 1000px;
-  height: 400px;
-  margin-top:20px; /* に隙間　*/
-  margin-bottom: 20px; /* 下に隙間　*/
   border:1px solid #ccc; /* 枠線追加 */
   box-sizing:border-box; /* 枠線を内側に（外側だと左右1PX分余分になるため→WIDTH＝1000pxがWIDTH＝1002pxになってしまう！） */
-  margin: auto;
 }
-
 .content2__upper,.content2__bottom {
   display: flex;
 }
-
+.img5, .img6, .img7 {
+    width: calc(100% / 3); /* 3等分します */
+    height: 400px;
+    /*margin: auto;　FLEXBOXを追加したので、なしでOK　*/
+    background-color: pink;
+}
 .menu2 {
     height: 180px;
     background-color: #A9F5A9;
 }
-
 .img8, .img9, .img10 {
     width: calc(100% / 3); /* 3等分します */
-    height: 180px;
+    height: 200px;
     background-color: pink;
-    display: inline-block;
 }
 
+/* コンテンツ 3 */
 .content3 {
   height: 360px;
   background: pink;
   margin-bottom: 20px;
 }
 
+/* フッター */
 .footer {
     width: 1000px;
     height: 50px;
