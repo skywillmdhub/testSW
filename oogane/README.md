@@ -3,6 +3,6 @@
 - testX
   - html
   - css
-   - css style
+    - style
   - img
-   - img images
+    - images
