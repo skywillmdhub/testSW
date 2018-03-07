@@ -1,0 +1,109 @@
+/***** 初期化 *****/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/***** 初期設定 *****/
+html, body, main {
+  height: 100%;
+}
+.wrapper {
+  width: 1000px ;
+  margin: 0 auto;
+  background-color: #B4E1D7;
+  display: flex;
+}
+
+/***** ヘッダー *****/
+.header {
+  width: 200px;
+  height: 500px;
+  background-color: #FFE6AA;
+}
+
+/* メニュー */
+.menu {
+  line-height: 12px;
+}
+
+/***** コンテンツ *****/
+.content {
+  width: 800px;
+}
+
+/* メイン画像 */
+.main {
+  width: 800px;
+  height: 500px;
+  background-color: #FFE6AA;
+  margin: 0 auto;
+}
+
+/* コンテンツ 画像3 */
+.content1 {
+  height: 180px;
+  display: flex;
+  background-color: #FFE6AA;
+}
+.img1, .img2, .img3 {
+  width: calc(800px / 3);
+  overflow: hidden;
+}
+
+/* コンテンツ 画像LIST */
+.content2 {
+  height: 500px;
+  background-color: pink;
+}
+.content2 .img_list {
+  height: 100px;
+  display: flex;
+  list-style: none;
+}
+.content2 .img_list li {
+  width: calc(800px / 5);
+}
+.content2 .img_list li img {
+  margin-top: 12.5px;
+}
+.content2 .img_list li .kagu_name {
+  display: inline-block;
+  vertical-align: top;
+  word-wrap: normal;
+  margin-left: 5px;
+  margin-top: 12.5px;
+  width: 80px;
+}
+
+/* コンテンツ 3 */
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 200%;
+}
+.content3 {
+  height: 75px;
+  background-color: #FFE6AA;
+  display: flex;
+  text-align: center;
+  line-height: 75px;
+}
+.img9, .img10, .img11, .img12 {
+  width: calc(800px /4 );
+  box-sizing: border-box; /* ボーダーを内側へ */
+  border: 1px solid gray;
+}
+
+.map {
+  height: 150px;
+  background-color: #FFE6AA;
+  box-sizing: border-box; /* ボーダーを内側へ */
+  border: 1px solid gray;
+}
+
+/* フッター */
+.footer {
+  height: 75px;
+  background-color: #FFE6AA;
+}
