@@ -1,0 +1,73 @@
+/***** 初期化 *****/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/***** 初期設定 *****/
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #FFFFCC;
+}
+hr {
+  width: 80%;
+  background: #66CCFF;
+}
+
+/***** ヘッダー *****/
+.header {
+  width: 768px;
+  height: 200px;
+  background-color: #FF99CC;
+  margin: 0 auto;
+}
+
+/* メニュー */
+.menu {
+  width: 768px;
+  height: 65px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+.menu p {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+/***** コンテンツ *****/
+.content {
+  display: flex;
+  width: 768px;
+  margin: 0 auto;
+}
+
+/* SUBコンテンツ */
+.sub-content {
+  width: 250px;
+  height: 1800px;
+  background-color: pink;
+}
+
+/* MAINコンテンツ */
+.main-content {
+  width: 518px;
+  height: 1800px;
+  background-color: #fff;
+}
+.blog2 {
+  margin: 0 auto;
+}
+.main-content h2 {
+  color: #FF64BD;
+  margin-top: 30px;
+}
+
+/* フッター */
+.footer {
+  width: 1000px;
+  height: 50px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
