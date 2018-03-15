@@ -1,0 +1,51 @@
+/***** 初期化 *****/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/***** 初期設定 *****/
+
+h3 {
+  margin-bottom: 1em;
+}
+
+hr {
+  margin-top:1rem;
+  margin-bottom:1rem;
+  border:0;
+  border-top:1px solid rgba(0,0,0,.1)
+}
+
+.wrapper {
+  width: 1000px ;
+  margin: 3em auto;
+}
+
+/***** ヘッダー *****/
+header {
+  height: 70px;
+  background-color: skyblue;
+}
+.header {
+  color: #fff;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* 練習04 */
+
+
+/* 練習05 */
+
+
+/* 練習06 */
+
+
+/***** フッター *****/
+.footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: skyblue;
+  text-align: center;
+}
