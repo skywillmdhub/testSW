@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>練習レベル２|SW‐WEB</title>
+  <link rel="stylesheet" href="css/level02.css">
+</head>
+<body>
+<!-- ヘッダー -->
+<header>
+  <div class="header"><h1>SW-Webデザイナーへの道</h1></div>
+</header>
+<!-- /ヘッダー -->
+
+<!-- ラッパー -->
+<div class="wrapper">
+  <h2>レベル２</h2>
+  <p>各テキストの指定に沿って、レイアウトを組んでみましょう</p>
+  <hr>
+  <!-- 練習04 -->
+  <h3>2ブロック</h3>
+  <div class="text4">
+    <div class="text4_left"><p>指定：幅が200px、高さが300pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダーが1px。右に1文字分の隙間（マージン）</p></div>
+    <div class="text4_right"><p>指定：幅が600px、高さが400pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダーが1px。</p></div>
+  </div>
+  <!-- /練習04 -->
+
+<hr>
+
+  <!-- 練習05 -->
+  <h3>4ブロック構成</h3>
+  <div class="text5">
+    <div class="text5_head"><p>指定：幅が800px、高さが250pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダーが1px。</p></div>
+    <div class="text5_center"><!-- 指定：幅が800px。上下に1文字分の隙間（マージン）。左右に均等に並べる。(Hint:justify-content プロパティ) -->
+      <div class="text5_center_left"><p>指定：幅が200px、高さが300pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダーが1px。</p></div>
+      <div class="text5_center_right"><p>指定：幅が200px、高さが300pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダーが1px。</p></div>
+    </div>
+    <div class="text5_bottom"><p>指定：幅が800px、高さが250pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダーが1px。</p></div>
+  </div>
+  <!-- /練習05 -->
+
+  <hr>
+
+  <!-- 練習06 -->
+  <h3>7ブロック構成</h3>
+  <div class="text6"><!-- 指定：幅が800px。真ん中に。 -->
+    <div class="text6_head"><p>指定：幅が800px、高さが100pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダー(内側 Hint:box-sizing)が1px。</p></div>
+    <div class="text6_body"><!-- 指定：幅が800px。上下に2文字分の隙間（マージン）。 -->
+      <div class="text6_body_top"><p>指定：幅が800px、高さが200pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダー(内側)が1px。</p></div>
+      <div class="text6_body_middle"><!-- 指定：幅が800px。上下に1文字分の隙間（マージン）。左右に均等に並べる。(Hint:justify-content プロパティ) -->
+        <div class="text6_body_middle_left"><p>指定：幅が200px、高さが200pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が0.5文字分、ボーダー(内側)が1px。</p></div>
+        <div class="text6_body_middle_center"><p>指定：幅が200px、高さが200pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が0.5文字分、ボーダー(内側)が1px。</p></div>
+        <div class="text6_body_middle_right"><p>指定：幅が200px、高さが200pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が0.5文字分、ボーダー(内側)が1px。</p></div>
+      </div>
+      <div class="text6_body_bottom"><!-- 指定：幅が800px。上下に1文字分の隙間（マージン）。左右に均等に並べる。(Hint:justify-content プロパティ) -->
+        <div class="text6_body_bottom_left"><p>指定：幅が70%、高さが200pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダー(内側)が1px。</p></div>
+        <div class="text6_body_bottom_right"><p>指定：幅が30%、高さが200pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダー(内側)が1px。</p></div>
+      </div>
+    </div>
+    <div class="text6_bottom"><p>指定：幅が800px、高さが100pxで、行の高さ（ラインハイト）が1行分、余白（パディング）が1文字分、ボーダー(内側)が1px。</p></div>
+  </div>
+  <!-- /練習06 -->
+
+  <hr>
+
+</div>
+<!-- ラッパー -->
+
+<!-- フッター -->
+<footer><div class="footer">© 2018 Monodukuri.dev</div></footer>
+<!-- /フッター -->
+</body>
+</html>
