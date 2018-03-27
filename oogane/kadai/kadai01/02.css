@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>課題1|レビュー前</title>
+  <link rel="stylesheet" href="kadai1_01_befor.css">
+</head>
+<body>
+<!-- ヘッダー -->
+<header>
+  <div class="header"><h1>SW-Webデザイナーへの道</h1></div>
+</header>
+<!-- /ヘッダー -->
+
+<!-- ラッパー -->
+<div class="wrapper">
+
+  <!-- 課題01 -->
+  <div class="card">
+    <div class="card_left_image"></div>
+    <div class="discription">
+      <hr>
+      <h2>TITLE<span class="subtitle"></h2>
+        <h4>SubTitle</span></h4>
+      <hr>
+      <p class="text">風車も楽屋の話小節らの狸から飛ん工合たた。たとえばすぐ俄たまして口ました。生ただんではたところが野ねずみのだめ館のなかではもう変だたと、何でも聴衆を云いれわけたござい。</p>
+      <hr>
+      <button type="button" name="button" class="card_btn">ACTION</button>
+      <button type="button" name="button" class="card_btn">ACTION</button>
+    </div>
+  </div>
+  <!-- /課題01 -->
+
+</div>
+<!-- ラッパー -->
+
+<!-- フッター -->
+<footer><div class="footer">© 2018 Monodukuri.dev</div></footer>
+<!-- /フッター -->
+</body>
+</html>
