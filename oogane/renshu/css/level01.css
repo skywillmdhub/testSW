@@ -34,7 +34,13 @@ header {
 **********/
 
 /* 練習01 */
-
+.text1 {
+  width: 200px;
+  height: 200px;
+  line-height: 70px;
+  padding: 1em;
+  border: 1px;
+}
 
 /* 練習02 */
 
