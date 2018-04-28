@@ -1,0 +1,50 @@
+/********/
+/* BASE */
+/********/
+
+body {
+  display: flex;
+  min-width: 768px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/***********/
+/* ELEMENT */
+/***********/
+
+/* HEADER */
+
+.header {
+/* 左端に固定　幅は120px　高さ100％（最小520px） */
+}
+
+.logo {
+/*　高さ120px　*/
+}
+
+/* CONTET */
+
+.contentWrapper {
+/*幅は100％からヘッダーの横幅分を引く*/
+}
+.mainVisual {
+/*高さは200px*/
+}
+.mainVisual__title {
+/*水平・垂直方向中央合わせ*/
+}
+
+.mainContent {
+/*フレックスで折り返す　高さは最小640px　幅は最小768pxより120px小さく*/
+}
+.contentCard {
+/*幅は200px　高さは320px*/
+}
+
+.footer {
+/*高さ200px*/
+}
