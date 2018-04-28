@@ -1,10 +1,12 @@
-  #ポータルサイトリニューアル
+  #	ポータルサイトリニューアル
   
-  構成（class名）
+  ## 構成（class名）
   
-  header
   
-  contentWrapper
+	header
+  
+  
+	contentWrapper
     mainArea
       mainVisual
         mainVisual__title
