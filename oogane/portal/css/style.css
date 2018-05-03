@@ -44,6 +44,7 @@ header {
   width: calc(100% - 120px);
   height: 100%;
   background-color: orange;
+  margin-left: 120px; /* ヘッダーとの重なり部分（１２０px）を移動させます。 */
 }
 .mainVisual {
 /*高さは200px*/
