@@ -1,0 +1,263 @@
+
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+  <link rel="stylesheet" href="css/uikit.css" />
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/prism.css" />
+
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script src="js/prism.js"></script>
+</head>
+<body>
+
+
+<!-- ラッパー -->
+<div class="wrapper">
+
+
+
+
+
+
+<div class="container">
+<header>
+  <nav class="uk-navbar-container uk-navbar">
+      <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#sub_contents">item</a></li>
+            <li><a href="#components">Components</a></li>
+          </ul>
+      </div>
+  </nav>
+</header>
+<!-- /ヘッダー -->
+
+  <div class="main_contents uk-margin-medium-bottom">
+    <div class="box1"><img src="img/mainimg_1.jpg"></div>
+    <div class="box2"><img src="img/mainimg_2.jpg"></div>
+    <div class="box3"><img src="img/mainimg_5.jpg"></div>
+  </div>
+
+
+
+
+    <div class="language-Markup">
+      <h1>UIkitの特徴</h1>
+        <h2>競合の心配ゼロな命名規則</h2>
+        <h3>使用するクラス名は全て<span style="color:red;">"uk-"から始まる</span>ため直感的で初心者でもわかりやすい。</h3>
+          <pre>
+            <code>
+  &lt;div class="uk-child-width-1-2@s uk-grid-match" uk-grid>&lt;/div&gt;
+  &lt;div class="uk-card uk-card-default uk-card-hover uk-card-body">&lt;/div&gt;
+  &lt;div class="uk-margin uk-margin-medium-top">&lt;/div&gt;
+            </code>
+          </pre>
+    </div>
+
+
+
+
+
+
+<!-- New Item-->
+
+  <div id="sub_contents"><h2>Item Card</h2>
+
+    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+        <img src="img/sub_img/subimg_1.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_2.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_3.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_4.jpg">
+      </div>
+    </div>
+    <p class="uk-margin uk-margin-medium-top">
+      <button class="uk-button uk-button-default">more</button>
+    </p>
+
+
+
+
+
+<!-- other -->
+  <div class="uk-margin-small-bottom uk-margin-xlarge-top"><h2>Item Card</h2>
+    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+        <img src="img/sub_img/subimg_5.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_6.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_7.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_8.jpg">
+      </div>
+    </div>
+
+    <div class="uk-child-width-1-2@s uk-grid-match uk-margin-xlarge-top" uk-grid>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+        <img src="img/sub_img/subimg_9.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_10.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_11.jpg">
+      </div>
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-margin-medium-left">
+        <img src="img/sub_img/subimg_12.jpg">
+      </div>
+    </div>
+      <p class="uk-margin uk-margin-medium-top">
+        <button class="uk-button uk-button-default">more</button>
+      </p>
+    </div>
+  </div>
+
+
+<!-- コンポーネント -->
+
+
+<h3 id="components"><span style="font-size: 40px;">Components</span></h3>
+
+  <ul uk-accordion>
+      <li class="uk-open">
+          <a class="uk-accordion-title" href="#">Item 1</a>
+          <div class="uk-accordion-content">
+          </div>
+      </li>
+      <li>
+          <a class="uk-accordion-title" href="#">Item 2</a>
+          <div class="uk-accordion-content">
+          </div>
+      </li>
+      <li>
+          <a class="uk-accordion-title" href="#">Item 3</a>
+          <div class="uk-accordion-content">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+          </div>
+      </li>
+  </ul>
+
+
+<!-- alert -->
+  <div class="uk-alert-primary" uk-alert>
+      <a class="uk-alert-close" uk-close></a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+  </div>
+
+  <div class="uk-alert-success" uk-alert>
+      <a class="uk-alert-close" uk-close></a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+  </div>
+
+  <div class="uk-alert-warning" uk-alert>
+      <a class="uk-alert-close" uk-close></a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+  </div>
+
+  <div class="uk-alert-danger" uk-alert>
+      <a class="uk-alert-close" uk-close></a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+  </div>
+<!-- /alert -->
+
+
+<!-- animation-card -->
+  <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid-match" uk-grid>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-fade uk-animation-reverse">
+              <p class="uk-text-center">Fade</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-scale-up uk-animation-reverse">
+              <p class="uk-text-center">Scale Up</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-scale-down uk-animation-reverse">
+              <p class="uk-text-center">Scale Down</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-shake uk-animation-reverse">
+              <p class="uk-text-center">Shake</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-slide-left uk-animation-reverse">
+              <p class="uk-text-center">Left</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-slide-top uk-animation-reverse">
+              <p class="uk-text-center">Top</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-slide-bottom uk-animation-reverse">
+              <p class="uk-text-center">Bottom</p>
+          </div>
+      </div>
+      <div class="uk-animation-toggle">
+          <div class="uk-card component-card uk-card-default uk-card-body uk-animation-slide-right uk-animation-reverse">
+              <p class="uk-text-center">Right</p>
+          </div>
+      </div>
+  </div>
+<!-- /animation-card -->
+
+
+<!-- button -->
+
+<button class="uk-margin-medium-top uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Button</button>
+<button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom">Button</button>
+<button class="uk-button uk-button-secondary uk-width-1-1">Button</button>
+
+<!-- /button -->
+
+<!-- icon -->
+<a href="" class="uk-icon-button uk-button-primary uk-margin-small-right uk-margin-medium-top" uk-icon="twitter"></a>
+<a href="" class="uk-icon-button  uk-button-secondary uk-margin-small-right uk-margin-medium-top" uk-icon="facebook"></a>
+<a href="" class="uk-icon-button uk-button-danger uk-margin-medium-top" uk-icon="google-plus"></a>
+
+<!-- /icon -->
+
+<!-- /コンポーネント -->
+</div>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- フッター -->
+<footer></footer>
+
+<!-- /フッター -->
+
+
+</div>
+<!-- ラッパー -->
+
+
+</body>
+</html>
